@@ -54,7 +54,6 @@ class OwnerController {
 		this.owners = owners;
 	}
 
-
 	@InitBinder
 	public void setAllowedFields(WebDataBinder dataBinder) {
 		dataBinder.setDisallowedFields("id");
